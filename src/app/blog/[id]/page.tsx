@@ -6,9 +6,7 @@ async function getImage() {
 	const res = await fetch(
 		"https://random.imagecdn.app/v1/image?width=950&height=250&format=json",
 		{
-			next: {
-				revalidate: 10,
-			},
+			cache: "no-store",
 		}
 	);
 
