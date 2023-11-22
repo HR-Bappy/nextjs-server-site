@@ -1,0 +1,22 @@
+.post-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .single-blog{
+    width: 48%;
+    height: 58px;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding:5px 10px;
+    border-radius: .5rem;
+    margin: 10px 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #117964;
+    transition: .3s ease-in-out;
+    font-weight: 400;
+    &:hover{
+      color: #01bb96;
+    }
+  }
+}

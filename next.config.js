@@ -9,6 +9,7 @@ const nextConfig = {
 			"randomuser.me",
 			"plus.unsplash.com",
 			"random.imagecdn.app",
+			"images.unsplash.com",
 		],
 	},
 };

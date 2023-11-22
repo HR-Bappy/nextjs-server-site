@@ -5,10 +5,10 @@ function Home() {
 	return (
 		<Layout
 			meta={{
-				title: "Home page title",
-				description: "Home page Description",
+				title: "Server site home page",
+				description: "Server site home page description",
 				image:
-					"https://www.buyrentkenya.com/discover/wp-content/uploads/2022/06/brk-blog-4reasons-why.png",
+					"https://img.freepik.com/free-vector/welcome-landing-page-template-with-landscape_23-2148245574.jpg",
 			}}
 		>
 			<div className="container">

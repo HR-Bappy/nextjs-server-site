@@ -37,7 +37,7 @@ export default async function Details({ params }: any) {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-2">
-						<Link href="/blog">Go Back</Link>
+						<Link href="/users">GO Back</Link>
 					</div>
 					<div className="col-md-8">
 						<div className="img-sec w-100 bg-danger text-center">
