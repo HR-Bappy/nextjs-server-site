@@ -2,6 +2,7 @@ import Layout from "@/src/component/layout";
 import Link from "next/link";
 import "./blog.scss";
 import Image from "next/image";
+import Banner from "@/src/component/banner";
 
 async function getDogList() {
 	const res = await fetch("https://dog.ceo/api/breeds/image/random", {
@@ -47,6 +48,8 @@ export default async function Home() {
 				image: user?.results[0]?.picture?.large,
 			}}
 		>
+			<Banner />
+
 			<div className="container">
 				<div className="row">
 					<div className="col-md-3"></div>

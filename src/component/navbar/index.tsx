@@ -15,16 +15,15 @@ function Navbar() {
 					</div>
 					<ul className="menu-items">
 						<li>
-							<Link href="/">Home</Link>
-						</li>
-						<li>
 							<Link href="/users">User</Link>
 						</li>
 						<li>
 							<Link href="/blog">Blog</Link>
 						</li>
 					</ul>
-					<h1 className="logo">ServerTest</h1>
+					<h1 className="logo">
+						<Link href="/">Home</Link>
+					</h1>
 				</div>
 			</nav>
 		</div>

@@ -2,13 +2,13 @@ import React from "react";
 import Meta from "./meta/meta";
 import Navbar from "./navbar";
 
-function Layout({ meta, children }: any) {
+function Layout({ meta, children, hasNav = true }: any) {
 	return (
 		<>
 			<Meta meta={meta} />
 
 			<body>
-				<Navbar />
+				{hasNav && <Navbar />}
 				<section>{children}</section>
 			</body>
 		</>

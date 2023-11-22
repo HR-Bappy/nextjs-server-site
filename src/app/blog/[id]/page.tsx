@@ -2,6 +2,7 @@ import Layout from "@/src/component/layout";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Banner from "@/src/component/banner";
 
 async function getImage() {
 	const res = await fetch(
@@ -34,6 +35,8 @@ export default async function Details({ params }: any) {
 				image: "https://www.spacex.com/static/images/locations/kennedy.jpg",
 			}}
 		>
+			<Banner />
+
 			<div className="container">
 				<div className="row">
 					<div className="col-md-2">

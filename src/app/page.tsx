@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "../component/layout";
+import "./home.scss";
+import Navbar from "../component/navbar";
 
 function Home() {
 	return (
@@ -10,10 +12,19 @@ function Home() {
 				image:
 					"https://img.freepik.com/free-vector/welcome-landing-page-template-with-landscape_23-2148245574.jpg",
 			}}
+			hasNav={false}
 		>
-			<div className="container">
-				<div className="mt-5 pt-5">
-					<h1>I am home page</h1>
+			<div className="banner-area">
+				<Navbar />
+				<div className="banner-text">
+					<h1>HomePage Design</h1>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic autem
+						harum eaque aut deserunt pariatur eum ea, sequi minus nam veniam
+						atque et quisquam molestiae aperiam! Iusto, ipsum.
+					</p>
+					<a href="#">Read More</a>
+					<a href="#">Watch More</a>
 				</div>
 			</div>
 		</Layout>
